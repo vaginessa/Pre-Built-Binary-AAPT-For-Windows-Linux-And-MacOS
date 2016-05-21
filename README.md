@@ -1,5 +1,7 @@
 # Pre-Built-Binary-AAPT-For-Windows-Linux-And-MacOS
-Latest, ready to use "Android Asset Packaging Tool" (AAPT) compiled binary (executable) for Windows, Linux/Unix and MacOS-X
+Latest, ready to use "Android Asset Packaging Tool" (AAPT) compiled binary (executable) for Windows, Linux/Unix and MacOS-X.
+Can included in scripts, or run from AndroidOS/Android Shell.
+
 
 ```
 Android Asset Packaging Tool
