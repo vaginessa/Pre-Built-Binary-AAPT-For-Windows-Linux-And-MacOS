@@ -29,6 +29,7 @@ Usage:
         [--max-res-version VAL] \
         [-I base-package [-I base-package ...]] \
         [-A asset-source-dir]  [-G class-list-file] [-P public-definitions-file] \
+        [-D main-dex-class-list-file] \
         [-S resource-sources [-S resource-sources ...]] \
         [-F apk-file] [-J R-file-dir] \
         [--product product1,product2,...] \
@@ -80,6 +81,7 @@ Usage:
        localization="suggested"
    -A  additional directory in which to find raw asset files
    -G  A file to output proguard options into.
+   -D  A file to output proguard options for the main dex into.
    -F  specify the apk file to output
    -I  add an existing package to base include set
    -J  specify where to output R.java resource constant definitions
@@ -162,6 +164,9 @@ Usage:
    --shared-lib
        Make a shared library resource package that can be loaded by an application
        at runtime to access the libraries resources. Implies --non-constant-id.
+   --app-as-shared-lib
+       Make an app resource package that also can be loaded as shared library at runtime.
+       Implies --non-constant-id.
    --error-on-failed-insert
        Forces aapt to return an error if it fails to insert values into the manifest
        with --debug-mode, --min-sdk-version, --target-sdk-version --version-code
@@ -180,6 +185,7 @@ Usage:
        localization
    --no-version-vectors
        Do not automatically generate versioned copies of vector XML resources.
-
+   --private-symbols
+       Java package name to use when generating R.java for private resources.
 
 ```
