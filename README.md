@@ -1,9 +1,10 @@
-# Pre-Built-Binary-AAPT-For-Windows-Linux-And-MacOS
-Latest, ready to use "Android Asset Packaging Tool" (AAPT) compiled binary (executable) for Windows, Linux/Unix and MacOS-X.
-Can included in scripts, or run from AndroidOS/Android Shell.
+<h1>Pre-Built-Binary-AAPT-For-Windows-Linux-And-MacOS</h1>
+<h2>Latest, ready to use "Android Asset Packaging Tool" (AAPT) compiled binary (executable) for Windows, Linux/Unix and MacOS-X.</h2>
+<h3>Can included in scripts, or run from AndroidOS/Android Shell.</h3>
 
+<hr/>
 
-```
+<pre>
 Android Asset Packaging Tool
 
 Usage:
@@ -187,5 +188,4 @@ Usage:
        Do not automatically generate versioned copies of vector XML resources.
    --private-symbols
        Java package name to use when generating R.java for private resources.
-
-```
+</pre>
