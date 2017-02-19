@@ -1,3 +1,5 @@
+<sub><a target="_blank" href="https://paypal.me/e1adkarak0" rel="nofollow"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" width="60" height="16" border="0" alt="PayPal Donation"></a></sub>
+
 <h1>Pre-Built-Binary-AAPT-For-Windows-Linux-And-MacOS</h1>
 <h2>Latest, ready to use "Android Asset Packaging Tool" (AAPT) compiled binary (executable) for Windows, Linux/Unix and MacOS-X.</h2>
 <h3>Can included in scripts, or run from AndroidOS/Android Shell.</h3>
